@@ -1,0 +1,97 @@
+/* Created by Edgaras Juodele, Andrew Griffin */
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h3 {
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+textarea {
+	width: 100%;
+	top: 0; left: 0; right: 0; bottom: 0;
+	position: absolute;
+	resize: none;
+	-webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+	-moz-box-sizing: border-box; /* FF1+ */
+	box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+	border: none;
+}
+th, td {
+	width: 180px;
+}
+th {
+	background-color: #BBB;
+}
+tr {
+	height: 35px;
+}
+
+td input[type=date] {
+	height: 90%;
+	border: none;
+	font-size: 16px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+table, th, td {
+	position: relative;
+	border: 1px solid black;
+}
+
+#form-options {
+	position: fixed;
+	bottom: 0;
+	background-color: #41454F;
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+	
+}
+
+#search-form {
+	background-color: #41454F;
+	color: white;
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	overflow-y: scroll;
+	padding: 5px;
+	padding-top: 10px;
+	-webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+	-moz-box-sizing: border-box; /* FF1+ */
+	box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+}
+#search-form a, #search-form a:visited {
+	color: white;
+}
+#current-results {
+	position: fixed;
+	width: 75%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	text-align: center;
+	overflow: scroll;
+	padding: 5px;
+	padding-top: 10px;
+	-webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+	-moz-box-sizing: border-box; /* FF1+ */
+	box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+}
+.padding {
+	height: 20px;
+}

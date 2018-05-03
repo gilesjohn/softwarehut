@@ -1,0 +1,97 @@
+/* Created byMatthew Williams, Andrew Griffin, Daniel Griffin */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#darkbox {
+	height: 100%;
+	width: 100%;
+	background-color: RGBA(33,33,33,0.6);
+	z-index: 100;
+	position: fixed;
+	display: none;
+}
+#lightbox {
+	height: 40vh;
+	width: 30vw;
+	margin: auto;
+	margin-top: 25vh;
+	background-color: #FFF;
+	border: 1px solid #888;
+	text-align: center;
+	padding-top: 10vh;
+}
+#lightbox a {
+	color: #0AF;
+	padding: 10px;
+}
+#lightbox a:hover {
+	color: #333;
+}
+/* Full-width input fields */
+#lightbox input[type=text], #lightbox input[type=password] {
+	  width: 80%%;
+	  padding: 10px;
+	  margin: 5px 0 3px 0;
+	  display: inline-block;
+	  background: white;
+	border: 1px solid white;
+}
+
+#lightbox input[type=text]:focus, #lightbox input[type=password]:focus {
+  	border: 1px solid black;
+}
+
+.button {
+	padding:15px 40px;
+	background-color: #09D;
+	color: white;
+	border: none;
+	cursor:pointer;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	font-size: 16px;
+	font-family: inherit;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #0BF;
+}
+.low-pad-button {
+	padding: 15px 25px;
+}
+.red-button {
+	background-color: #D01;
+}
+.red-button:hover {
+	background-color: #F03;
+}
+.green-button {
+	background-color: #0D9;
+}
+.green-button:hover {
+	background-color: #0FB;
+}
+.right-buttons {
+	float: right;
+	margin-right: 20px;
+	margin-left: -10px;
+}
+.left-buttons {
+	float: left;
+	margin-left: 20px;
+	margin-right: -10px;
+}
+.bottom-button {
+	margin-top: 25px;
+	margin-bottom: -10px;
+}

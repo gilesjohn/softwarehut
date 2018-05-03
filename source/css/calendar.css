@@ -1,0 +1,72 @@
+/* Created by Matthew Williams, Daniel Fairhead, Joshua Shaw */
+#month-bar {
+	text-align: center;
+	background-color: #41454F;
+	color: white;
+	padding: 5px;
+}
+
+#month-bar h3 {
+	margin-bottom: -10px;
+}
+
+#month-bar a {
+	color: white;
+	text-decoration: none;
+}
+
+#month-name {
+	margin: 0 30px;
+	display: inline-block;
+	width: 300px;
+}
+
+
+#calendar ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: left;
+}
+#calendar li {
+	display: inline-block;
+	width: 13.6%;
+	padding: 20px 0;
+	margin: 0;
+	text-align: center;
+}
+
+#days li {
+	cursor: pointer;
+}
+#days li:hover {
+	background-color: #DDD;
+}
+
+#weekdays {
+	background-color: #b82234;
+	color: white;
+	
+}
+
+.low-visits {
+	background-color: #F0F000;
+}
+.medium-visits {
+	background-color: #FA0;
+}
+.high-visits {
+	background-color: #F30;
+}
+
+#key-container {
+	text-align: center;
+}
+
+.key {
+	text-align: center;
+	display: inline-block;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0;
+}

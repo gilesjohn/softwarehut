@@ -1,0 +1,8 @@
+/* Created by Andrew Griffin */
+#current-results ul li {
+	margin-bottom: 30px;
+	font-size: 120%;
+}
+#current-results ul {
+	list-style-type: none;
+}

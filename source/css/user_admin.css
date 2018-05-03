@@ -1,0 +1,52 @@
+/* Created by Giles Holdsworth */
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+	padding-top: 30px;
+	text-align:center;
+}
+
+.input-container {
+	display: inline-block;
+}
+
+.input-container p {
+	display: inline;
+	line-height: 25px;
+	margin-right: 10px;
+}
+
+
+input[type=text], input[type=password] {
+	height: 25px;
+	padding: 10px;
+	margin: 5px 0 3px 0;
+	display: inline-block;
+	background: white;
+	border: 1px solid black;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  	border: 1px solid black;
+}
+
+
+input[type=submit] {
+	padding:15px 40px;
+	background-color: #0D9;
+	color: white;
+	border: none;
+	cursor:pointer;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	font-size: 16px;
+	font-family: inherit;
+	text-decoration: none;
+	margin-top: 20px;
+}
+input[type=submit]:hover {
+	background-color: #0FB;
+}
